@@ -8,4 +8,4 @@ with gr.Blocks() as demo:
     output_text = gr.Textbox(label="출력")
     text_input.submit(handle_input, inputs=text_input, outputs=output_text)
 
-demo.launch()
+demo.launch()\

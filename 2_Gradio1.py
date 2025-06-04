@@ -6,4 +6,3 @@ with gr.Blocks() as demo: # with을 작성하여 Blocks을 통해 여러 내용�
     gr.Markdown("- 첫번째 아이템\n- 두번째 아이템\n- 세번째 아이템\n")
 
 demo.launch()
-
